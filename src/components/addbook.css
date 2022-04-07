@@ -1,0 +1,23 @@
+.add-book .add-btn{
+    width: 80%;
+    margin: 20px auto;
+    text-align: end;
+
+}
+.add-book .add-btn button{
+    width: 200px;
+    height: 40px;
+}
+.add-book .error-message{
+    text-align: center;
+    color: red;
+}
+.add-book .submitted{
+    text-align: center;
+    color: greenyellow;
+}
+@media(max-width:768px){
+    .add-book .add-btn{
+        text-align: center;
+    }
+}

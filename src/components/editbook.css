@@ -1,0 +1,19 @@
+.edit-book .edit-btn{
+    width: 80%;
+    margin: 20px auto;
+    text-align: end;
+
+}
+.edit-book .edit-btn button{
+    width: 200px;
+    height: 40px;
+}
+.edit-book .error-message{
+    text-align: center;
+    color:red;
+}
+@media(max-width:768px){
+    .edit-book .edit-btn{
+        text-align: center;
+    }
+}

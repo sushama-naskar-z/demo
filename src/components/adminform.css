@@ -1,0 +1,35 @@
+.adminform{
+    width: 80%;
+    margin: auto;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.adminform .item{
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adminform .item  input,textarea {
+    
+    width: 90%;
+    height: 30px;
+    
+    /* border: 1px solid green; */
+}
+.adminform .item .summary{
+    height: 170px;
+}
+@media(max-width:768px){
+    .adminform .item{
+        
+        flex-direction: column;
+        
+    }
+
+}

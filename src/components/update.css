@@ -1,0 +1,29 @@
+.update .buttons{
+    width: 80%;
+    margin:auto ;
+    display: flex;
+    justify-content: end;
+    
+}
+.update .buttons button{
+    width: 200px;
+    height: 60px;
+    margin: 0px 10px;
+    border:none;
+    border-radius: 10px ;
+    background-color: rgb(173, 172, 172);
+ } 
+ .update .buttons button:hover{
+     cursor: pointer;
+ }
+ @media(max-width:768px){
+     .update .buttons{
+         flex-direction: column;
+     }
+     .update .buttons button{
+         width: 100%;
+         margin: 10px 0px;
+        
+
+     }
+ }
